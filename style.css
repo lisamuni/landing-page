@@ -1,0 +1,267 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+/* tulip start */
+.tulip-main-containair{
+   height: 500px;
+   padding-top: 20px;
+   background: rgb(199, 77, 47);
+   box-sizing: border-box;
+   justify-content: center;
+   align-items: center;
+   border: 1px black;
+   margin-bottom: 30px;
+   
+}
+.tulip-containair{
+   width: 1140px;
+   height: 100%;
+   background-image:url("./img/pngwing\ 10.png");
+   margin:0 auto;
+   background-repeat: no-repeat;
+   align-items: center;
+   display: flex;
+   background-size: contain;
+   background-position: top right;
+ 
+}
+.tulip-left{
+   width: 50%;
+}
+.tulip-left h2{
+   color:rgb(38, 168, 168);
+   font-weight: 800px;
+   font-style: italic;
+
+}
+.tulip-left p{
+   font-size: 20px;
+   margin-top: 20px;
+   white-space: 15px;
+   line-height: 30px;
+   color: rgb(59, 196, 125);
+}
+.tulip-right{
+   width: 50%;
+}
+.tulip-right img{
+   height: 450px;
+   width: 350px;
+
+   align-items: center;
+   
+}
+button{
+   height:30px;
+   padding: 10px 20px 10px;
+   align-items: center;
+   border: none;
+   border-radius: 20px;
+
+
+}
+/* tulip end */
+
+/* primary-area start */
+.primary-title{
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+
+}
+.primary-des{
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+
+}
+/*primary-area end  */
+
+/* feature start */
+ .feature-main-container{
+    width: 1400px;
+    margin: 0 auto;
+    height: 800px;
+    background-color: rgb(194, 192, 255);
+ } 
+ .featured-container{
+  width: 100%;
+    
+ }
+ .feature-containers{
+    display: flex;
+    justify-content:center;
+    gap: 0px;
+    padding: 30px;
+    margin-top: 50px;
+ }
+
+ .featured-header{
+    padding-top: 20px;
+    text-align: center;
+
+ }
+ /* feature end */
+ .feature-box{
+    opacity: 100%;
+    margin-top: 30px;
+    border: 10px solid white;
+    border-radius: 500px 500px 0px 0px;
+    height: 500px;
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px 20px 0px 0px;
+    height: 500px;
+    background-color: rgba(218, 173, 59, 0.15);
+    
+ }
+ .feature-box img{
+    width: 100%;
+    padding: 30px 0px 0px 50px;
+    height: 100%;
+ }
+
+ .icon{
+   margin-top: 100%;
+   background: rgba(39, 39, 39, 39);
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+
+ }
+.icon-box{
+   padding-top: 20px;
+   text-align: center;
+   width: 200px;
+   height: 200px;
+}
+/* flower start */
+.flower-main-container{
+   
+   justify-content:center;
+   margin-top: 20px;
+   background-color: rgb(128, 171, 240);
+   height: 600px;
+  
+
+   
+}
+
+.flower-container{
+   display: flex;
+   gap: 15px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+  
+
+}
+h2{
+   font-size: 40px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color:darkred;
+  
+   
+
+}
+p{
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   gap:5px;
+   color: black;
+}
+
+.flower-main-containair{
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(192, 192, 255);
+   margin-top: 20px;
+}
+
+.flower-containair{
+   height: 370px;
+   width:940px;
+   background-image: url(C:\project\New folder\img\pngwing 10.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   border-radius: 30px;
+
+}
+
+.flower-box{
+   text-align: center;
+
+
+}
+.flower-title{
+   text-align: center;
+
+}
+
+.new-flower-des{
+   width: 300px;
+   text-align: center;
+   align-items: center;
+   gap: 40PX;
+
+}
+
+.flower-shop{
+text-align: center;
+display: flex;
+gap: 15px;
+}
+
+input[type=text]{
+   width: 500px;
+   padding: 10px 35px;
+   border-radius: 5px;
+   border: 1px solid red;
+   
+}
+
+input[type=submit]{
+   padding: 10px 20px;
+   background-color:palevioletred;
+   border: 1px;
+   border:1px solid gray;
+   border-radius: 5px;
+   color: beige;
+}
+
+.footer-main-container{
+   height: 300px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  
+
+}
+.footer-container{
+   text-align: center;
+   background-color:black;
+   margin-top: 20px;
+
+}
+.footer-title{
+   color: white;
+   font-size: 50px;
+
+
+}
+.footer-des{
+   color: white;
+}
